@@ -1,0 +1,689 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+div{
+    margin: 2px;
+}
+.navbar{
+
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+
+}
+.nav-logo{
+    height: 50px;
+    width: 140px;
+   
+    
+  
+}
+
+.logo{
+    
+    background-image: url("amazon_logo.png");
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+}
+
+.border{
+    border: 1.5px solid transparent;
+}
+
+.border:hover{
+    border: 1.5px solid white;
+}
+
+.add-first{
+    color: #cccccc;
+    font-size: 0.8rem;
+    margin-left: 15px;
+}
+.add-second{
+    color: white;
+    font-size: 1rem;
+    margin: 3px;
+}
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    background-color:pink;
+    width: 620px;
+    height: 40px;
+    border-radius: 4px;
+}
+.search-select{
+    background-color: #f3f3f3;
+    width: 50px ;
+    text-align: center;
+   border-top-left-radius: 4px;
+   border-bottom-left-radius: 4px;
+   border: none;
+}
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+
+.search-icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    background-color: rgb(255, 158, 24);
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color: black;
+}
+
+.nav-search:hover{
+    border: 2px solid orangered;
+}
+span{
+    font-size: 0.7rem;
+
+}
+.nav-second{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+.nav-cart i{ 
+    font-size: 35px;
+}
+.nav-cart{
+    font-size: 0.7rem;
+    font-weight: 700;
+}
+
+
+.pannel{
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.pannel-option p{
+    margin-left: 15px;
+    display: inline;
+}
+.pannel-option{
+    width: 70%;
+    font-size: 0.85rem;
+}
+.pannel-deal{
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+.hero-section{
+    height: 380px;
+    background-image: url("amazon2.jpg");
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.hero-section-message{
+    background-color: white;
+    color: black;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    width: 80%;
+    margin-bottom: 25px;
+
+}
+.hero-section-message a{
+    color: #007285;
+}
+.shop-section1{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+}
+
+.box{
+    height: 350px;
+    width: 23%;
+    background-color: white;
+    position: relative;
+}
+.box-image{
+    
+    height: 70%;
+    position: relative;
+}
+.b1{
+    height: 45%;
+    width: 46%;
+    background-image: url("b1.jpg");
+    background-size: cover;
+    position: absolute;
+    left: 5px;
+    top: 5px;
+}
+
+.b2{
+    position: absolute;
+    left: 173px;
+    top: 5px;
+    height: 45%;
+    width: 46%;
+    background-image: url("b1_1.jpg");
+    background-size: cover;
+}
+.b3{
+    position: absolute;
+    top:130px ;
+    left: 5px;
+    height: 45%;
+    width: 46%;
+    background-image: url("b_2.jpg");
+    background-size: cover;
+
+}
+.b4{
+    position: absolute;
+    top: 130px;
+    left: 173px;
+    height: 45%;
+    width: 46%;
+    background-image: url("b_3.jpg");
+    background-size: cover;
+}
+.a-a{
+    position: absolute;
+   bottom: 10px;
+}
+.box-image2{
+    height: 70%;
+    position: relative;
+}
+.c1{
+    position: absolute;
+    height: 45%;
+    width: 46%;
+    left: 5px;
+    top: 5px;
+    background-image: url("c_1.jpg");
+    background-size: cover;
+}
+.c2{
+    position: absolute;
+    left: 173px;
+    top: 5px;
+    height: 45%;
+    width: 46%;
+    background-image: url("c_2.jpg");
+    background-size: cover;
+}
+.c3{
+    position: absolute;
+    top:130px ;
+    left: 5px;
+    height: 45%;
+    width: 46%;
+    background-image: url("c_3.jpg");
+    background-size: cover;
+}
+.c4{
+    position: absolute;
+    top: 130px;
+    left: 173px;
+    height: 45%;
+    width: 46%;
+    background-image: url("c_4.jpg");
+    background-size: cover;
+}
+.c-c{
+      position: absolute;
+      bottom: 10px;
+}
+
+.box-image3{
+    height: 70%;
+    position: relative;
+}
+
+.d1{
+    position: absolute;
+    height: 45%;
+    width: 46%;
+    left: 5px;
+    top: 5px;
+    background-size: cover;
+    background-image: url("d_1.jpg");
+}
+.d2{
+    position: absolute;
+    left: 173px;
+    top: 5px;
+    height: 45%;
+    width: 46%;
+    background-size: cover;
+    background-image: url("d_2.jpg");
+}
+.d3{
+    position: absolute;
+    top:130px ;
+    left: 5px;
+    height: 45%;
+    width: 46%;
+    background-image: url("d_3.jpg");
+    background-size: cover;
+}
+.d4{
+    position: absolute;
+    top: 130px;
+    left: 173px;
+    height: 45%;
+    width: 46%;
+    background-size: cover;
+    background-image: url("d_4.jpg");
+}
+.d1_1{
+    position: absolute;
+      bottom: 10px;
+}
+.box-image4{
+    height: 70%;
+    position: relative;
+}
+.e1{
+    position: absolute;
+    height: 45%;
+    width: 46%;
+    left: 5px;
+    top: 5px;
+    background-size: cover;
+    background-image: url("e_1.jpg");
+}
+.e2{
+    position: absolute;
+    left: 173px;
+    top: 5px;
+    height: 45%;
+    width: 46%;
+    background-size: cover;
+    background-image: url("e_2.jpg");
+}
+.e3{
+    position: absolute;
+    top:130px ;
+    left: 5px;
+    height: 45%;
+    width: 46%;
+    background-size: cover;
+    background-image: url("e_3.jpg");
+}
+.e4{
+    position: absolute;
+    top: 130px;
+    left: 173px;
+    height: 45%;
+    width: 46%;
+    background-size: cover;
+    background-image: url("e_4.jpg");   
+}
+.e1_1{
+    position: absolute;
+    bottom: 10px;
+}
+.shop-section2{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+}
+.box-image1_1{
+    height: 70%;
+    position: relative;
+}
+.a1_1{
+    position: absolute;
+    height: 45%;
+    width: 46%;
+    left: 5px;
+    top: 5px;
+    background-size: cover;
+    background-image: url("a1.1.jpg");
+}
+.a1_2{
+    position: absolute;
+    left: 173px;
+    top: 5px;
+    height: 45%;
+    width: 46%;
+    background-size: cover;
+    background-image: url("a1.2.jpg");
+}
+.a1_3{
+    position: absolute;
+    top:130px ;
+    left: 5px;
+    height: 45%;
+    width: 46%;
+    background-size: cover;
+    background-image: url("a1.3.jpg");
+}
+.a1_4{
+    position: absolute;
+    top: 130px;
+    left: 173px;
+    height: 45%;
+    width: 46%;
+    background-size: cover;
+    background-image: url("a1.4.jpg");    
+}
+.a1_1_1{
+    position: absolute;
+    bottom: 10px;
+}
+
+.box-image2_1{
+    height: 70%;
+    position: relative;
+}
+.b1_1{
+    position: absolute;
+    height: 45%;
+    width: 46%;
+    left: 5px;
+    top: 5px;
+    background-size: cover;
+    background-image: url("b1.1.jpg");
+}
+.b1_2{
+    position: absolute;
+    left: 173px;
+    top: 5px;
+    height: 45%;
+    width: 46%;
+    background-size: cover;
+    background-image: url("b1.2.jpg");
+}
+.b1_3{
+    position: absolute;
+    top:130px ;
+    left: 5px;
+    height: 45%;
+    width: 46%;
+    background-size: cover;
+    background-image: url("b1.3.jpg");
+}
+.b1_4{
+    position: absolute;
+    top: 130px;
+    left: 173px;
+    height: 45%;
+    width: 46%;
+    background-size: cover;
+    background-image: url("b1.4.jpg");    
+}
+.b1_1_1{
+    position: absolute;
+    bottom: 10px;
+}
+
+.box-image3_1{
+    height: 70%;
+    position: relative;
+}
+.c1_1{
+    position: absolute;
+    height: 45%;
+    width: 46%;
+    left: 5px;
+    top: 5px;
+    background-size: cover;
+    background-image: url("c1.1.jpg");
+}
+.c1_2{
+    position: absolute;
+    left: 173px;
+    top: 5px;
+    height: 45%;
+    width: 46%;
+    background-size: cover;
+    background-image: url("c1.2.jpg");
+}
+.c1_3{
+    position: absolute;
+    top:130px ;
+    left: 5px;
+    height: 45%;
+    width: 46%;
+    background-size: cover;
+    background-image: url("c1.3.jpg");
+}
+.c1_4{
+    position: absolute;
+    top: 130px;
+    left: 173px;
+    height: 45%;
+    width: 46%;
+    background-size: cover;
+    background-image: url("c1.4.jpg");    
+}
+.c1_1_1{
+    position: absolute;
+    bottom: 10px;
+}
+
+ .box-image4_1{
+    height: 70%;
+    position: relative;
+}
+/* .d1_1{
+    position: absolute;
+    height: 45%;
+    width: 46%;
+    left: 5px;
+    top: 5px;
+    background-size: cover;
+    background-image: url("d1.1.jpg");   
+} */
+.d1_2{
+    position: absolute;
+    left: 173px;
+    top: 5px;
+    height: 45%;
+    width: 46%;
+    background-size: cover;
+    background-image: url("d1.2.jpg");
+}
+
+.d1_3{
+    position: absolute;
+    top:130px ;
+    left: 5px;
+    height: 45%;
+    width: 46%;
+    background-size: cover;
+    background-image: url("d1.3.jpg");
+}
+.d1_4{
+    position: absolute;
+    top: 130px;
+    left: 173px;
+    height: 45%;
+    width: 46%;
+    background-size: cover;
+    background-image: url("d1.4.jpg");    
+}
+.d1_1_1{
+    position: absolute;
+    bottom: 10px;
+}
+.shop-section3{
+    height: 300px;
+    background-color: #e2e7e6;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.box1{
+    top: 10px;
+    display: flex;
+    height: 94%;
+    width: 98%;
+    background-color: white;
+    position: relative;
+}
+.s3_1{
+    position: absolute;
+    left: 5px;
+    height: 100%;
+    width: 24%;
+    background-image: url("s3_1.jpg");
+    background-size: cover;
+}
+.s3_2{
+    position: absolute;
+    left: 410px;
+    height: 100%;
+    width: 24%;
+    background-image: url("s3_2.jpg");
+    background-size: cover;
+}
+.s3_3{
+    position: absolute;
+    left: 770px;
+    height: 100%;
+    width: 24%;
+    background-image: url("s3_3.jpg");
+    background-size: cover;
+}
+.s3_4{
+    position: absolute;
+    left: 1120px;
+    height: 100%;
+    width: 24%;
+    background-image: url("s3_4.jpg");
+    background-size: cover;
+}
+.shop-section4{
+    height: 300px;
+    background-color: #e2e7e6;
+    display: flex;
+    justify-content: space-evenly;
+}
+.s4{
+    background-color: white;
+    width: 90%;
+    height: 100%;
+    display: flex;
+    position: relative;
+    
+}
+.s4_1{
+    position: absolute;
+    height: 90%;
+    width: 33%;
+    background-image: url("s4_1.jpg");
+    background-size: cover;
+    top: 20px;
+    left: 10px;
+}
+.s4_2{
+    position: absolute;
+    height: 90%;
+    width: 30%;
+    background-image: url("s4_2.jpg");
+    background-size: cover;
+    top: 20px;
+    left: 480px;
+}
+.s4_3{
+    position: absolute;
+    height: 90%;
+    width: 29%;
+    background-image: url("s4_3.jpg");
+    background-size: cover;
+    top: 20px;
+    left: 900px;
+}
+footer{
+    margin-top: 10px;
+}
+.foot-pannel1{
+    background-color: #37475a;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+}
+.foot-pannel2{
+    background-color: #222f3d;
+    color: white;
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+}
+ul{
+    margin-top: 20px;
+}
+ul a{
+    display: block;
+    margin-top: 10px;
+    font-size: 0.65rem;
+    color: #dddddd;
+}
+.foot-pannel3{
+    background-color:#222f3d ;
+    column-gap: white;
+    border-top: 0.5px solid white;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.amazon{
+    height: 80px;
+    width: 30%;
+    border: 1px solid black;
+    background-image: url("amazon.png");
+    background-size: cover;
+}
+.foot-pannel4{
+    background-color: #0f1111;
+    color: white;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    height: 100px;
+    
+}
+.pages{
+    padding-top: 25px;
+    font-size: 1rem;
+    text-align: center;
+    color:red;
+}
+.copy-right{
+    padding-top: 5px;
+    text-align: center;
+    font-size: 0.7rem,;
+    color: red;
+}
